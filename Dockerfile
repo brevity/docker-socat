@@ -1,5 +1,5 @@
-FROM debian:8
-MAINTAINER Lee Verberne <lee@blarg.org>
+FROM debian:11
+MAINTAINER Un-Maintained <verb.noun@discard.email>
 
 RUN apt-get update && apt-get install -y \
         socat \
